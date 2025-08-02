@@ -65,6 +65,7 @@ export default defineNuxtConfig({
     ],
   },
   gtag: {
+    enabled: process.env.NODE_ENV === 'production',
     id: 'GTM-5DTP87RT'
   },
   vite: {
