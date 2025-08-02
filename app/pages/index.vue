@@ -233,7 +233,7 @@ useSeoMeta({
   ogTitle: t('seo.title'),
   description: t('seo.description'),
   ogDescription: t('seo.description'),
-  ogImage: 'https://massageindanang.com/images/og-image.jpg'
+  ogImage: 'https://homemassagedanang.com/images/og-image.jpg'
 });
 
 </script>
