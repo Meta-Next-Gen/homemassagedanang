@@ -11,7 +11,8 @@
           <img :src="`/flags/${locale}.svg`" :alt="locale" width="32" height="32">
         </button>
         <Transition enter-active-class="animate-fade-left" leave-active-class="animate-fade-left animate-reverse">
-          <div v-if="state.showLanguage" class="absolute right-0 bg-white rounded-lg shadow-lg flex space-x-2 px-2">
+          <div v-if="state.showLanguage" class="absolute right-0 bg-white rounded-lg shadow-lg flex space-x-2 px-2"
+            v-on-click-outside="() => state.showLanguage = false">
             <template v-for="locale in locales" :key="locale.code">
               <button @click="setLocale(locale.code)" class=" w-8 h-8 ">
                 <img :src="`/flags/${locale.code}.svg`" :alt="locale.code" width="32" height="32" class="inline">
@@ -52,7 +53,8 @@
         <p class="text-lg text-center text-gray-700 mt-4 mb-16">{{ $t('services.description') }}</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <template v-for="item in $tm('services.items')">
-            <div class="max-w-sm bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
+            <div
+              class="max-w-sm bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
               <img class="rounded-t-lg" :src="$rt(item.image)" alt="" />
               <div class="p-5">
                 <a href="#">
@@ -200,7 +202,7 @@
     </button>
 
     <Transition enter-active-class="animate-fade-up" leave-active-class="animate-fade-up animate-reverse">
-      <div v-if="state.showHelp"
+      <div v-if="state.showHelp" v-on-click-outside="() => state.showHelp = false"
         class="absolute bottom-full right-1/2 translate-x-1/2 rounded-xl grid gap-3 mb-4 bg-white shadow-lg">
         <a href="tel:0789489459" target="_blank">
           <img src="/logos/phone.svg" alt="Phone" class="h-10 w-10 hover:scale-110 transition duration-300">
@@ -231,6 +233,8 @@
 
 <script lang="ts" setup>
 const { locale, locales, setLocale, t } = useI18n()
+import { vOnClickOutside } from '@vueuse/components'
+
 
 const state = reactive({
   showLanguage: false,

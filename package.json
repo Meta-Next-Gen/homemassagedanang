@@ -12,6 +12,8 @@
   "dependencies": {
     "@nuxtjs/i18n": "10.0.3",
     "@tailwindcss/vite": "^4.1.11",
+    "@vueuse/components": "^13.6.0",
+    "@vueuse/nuxt": "13.6.0",
     "nuxt": "^4.0.1",
     "tailwindcss": "^4.1.11",
     "tailwindcss-animated": "^2.0.0",
