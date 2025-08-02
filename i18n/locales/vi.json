@@ -16,17 +16,17 @@
       {
         "title": "Massage Toàn Thân",
         "description": "Giúp giảm căng thẳng, cải thiện tuần hoàn máu và mang lại cảm giác thư thái sâu sắc.",
-        "image": "/images/massage-body.svg"
+        "image": "/images/service-body.jpg"
       },
       {
         "title": "Massage Đá Nóng",
         "description": "Sử dụng đá nóng giúp làm dịu cơ bắp, giảm đau nhức và tăng cường năng lượng.",
-        "image": "/images/massage-hot-stones.svg"
+        "image": "/images/service-hot-stones.jpg"
       },
       {
         "title": "Giác hơi & Cạo gió",
         "description": "Phương pháp đơn giản nhất để thanh nhiệt giải hàn, xóa bỏ các điểm tắc nghẽn trong kinh mạch.",
-        "image": "/images/massage-herbal.svg"
+        "image": "/images/service-cupping.jpg"
       }
     ]
   },

@@ -1,9 +1,9 @@
 <template>
-  <header class="py-4">
+  <header id="header" class="md:h-screen flex flex-col justify-between bg-cover bg-center ">
     <nav class="container mx-auto px-4 flex justify-between items-center">
       <!-- Logo -->
       <a href="#" class="block">
-        <img src="/images/logo-black.png" alt="Massage Đà Nẵng Logo" class="h-12" width="169" height="48">
+        <img src="/images/logo-white.png" alt="Massage Đà Nẵng Logo" class="h-12" width="169" height="48">
       </a>
       <!-- Nút thay đổi ngôn ngữ với biểu tượng lá cờ -->
       <div class="relative">
@@ -21,50 +21,47 @@
         </Transition>
       </div>
     </nav>
+    <section id="hero" class="container mx-auto grow flex items-center justify-center">
+      <!-- Cột trái: Tiêu đề, giới thiệu và nút đặt lịch -->
+      <div class="md:w-1/2 text-center md:text-left animate-fade-in-up">
+        <h1 class="text-4xl md:text-9xl font-extrabold leading-tight mb-6 text-white">
+          {{ $t('hero.title') }} <span class="inline md:block">{{ $t('hero.subtitle') }}</span>
+        </h1>
+        <hr class="w-3/4 text-white border-2 my-10" />
+        <p class="text-lg md:text-xl mb-16 max-w-2xl mx-auto md:mx-0 text-white">
+          {{ $t('hero.description') }}
+        </p>
+        <a href="#footer"
+          class="bg-primary text-white font-bold py-5 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+          {{ $t('hero.button') }}
+        </a>
+      </div>
+      <!-- Cột phải: Hình ảnh -->
+      <div class="md:w-1/2 order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
+        <img src="/images/hero.png" alt="Hình ảnh Massage" width="736" height="736"
+          class="rounded-3xl h-auto object-cover">
+      </div>
+    </section>
   </header>
 
   <main>
-    <!-- Hero Section -->
-    <!-- Phần Hero đã được cập nhật thành bố cục 2 cột -->
-    <section id="hero" class="md:h-screen flex items-center justify-center ">
-      <!-- Đã loại bỏ lớp phủ gradient nền, nền giờ là màu trắng -->
-      <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
-        <!-- Cột trái: Tiêu đề, giới thiệu và nút đặt lịch -->
-        <div class="md:w-1/2 text-center md:text-left animate-fade-in-up">
-          <h1 class="text-4xl md:text-9xl font-extrabold leading-tight mb-6 text-primary">
-            {{ $t('hero.title') }} <span class="inline md:block">{{ $t('hero.subtitle') }}</span>
-          </h1>
-          <p class="text-lg md:text-xl mb-16 max-w-2xl mx-auto md:mx-0 text-gray-700">
-            {{ $t('hero.description') }}
-          </p>
-          <a href="#footer"
-            class="bg-primary text-white font-bold py-5 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-            {{ $t('hero.button') }}
-          </a>
-        </div>
-        <!-- Cột phải: Hình ảnh -->
-        <div class="md:w-1/2 order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
-          <img src="/images/banner.png" alt="Hình ảnh Massage" width="736" height="736"
-            class="rounded-3xl shadow-2xl max-w-full h-auto object-cover">
-        </div>
-      </div>
-    </section>
-
     <!-- Services Section -->
     <section id="services" class="py-16 bg-gray-100">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4 py-16">
         <h2 class="text-4xl font-bold text-center text-primary">{{ $t('services.title') }}</h2>
-        <p class="text-lg text-center text-gray-700 mt-4 mb-12">{{ $t('services.description') }}</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <p class="text-lg text-center text-gray-700 mt-4 mb-16">{{ $t('services.description') }}</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <template v-for="item in $tm('services.items')">
-            <div
-              class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
-              <div class="text-primary mb-4 text-5xl text-center">
-                <img :src="$rt(item.image)" :alt="$rt(item.title)" class="w-16 h-16 mx-auto">
+            <div class="max-w-sm bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
+              <img class="rounded-t-lg" :src="$rt(item.image)" alt="" />
+              <div class="p-5">
+                <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary">{{ $rt(item.title) }}</h5>
+                </a>
+                <p class="text-gray-700">{{ $rt(item.description) }}</p>
               </div>
-              <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">{{ $rt(item.title) }}</h3>
-              <p class="text-gray-700 text-center">{{ $rt(item.description) }}</p>
             </div>
+
           </template>
         </div>
       </div>
@@ -74,21 +71,25 @@
     <section id="prices" class="py-16 bg-white">
       <div class="container mx-auto px-4 my-16">
         <h2 class="text-4xl font-bold text-center text-primary">{{ $t('price.title') }}</h2>
-        <p class="text-lg text-center text-gray-700 mt-4 mb-12">{{ $t('price.description') }}</p>
+        <p class="text-lg text-center text-gray-700 mt-4 mb-16">{{ $t('price.description') }}</p>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-          <!-- Massage Pricing -->
-          <template v-for="service in $tm('price.services')">
-            <div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-primary">
-              <h3 class="text-3xl font-bold text-primary mb-6 text-center">{{ $rt(service.title) }}</h3>
-              <ul class="space-y-4 text-lg text-gray-700">
+          <template v-for="(service, index) in $tm('price.services')">
+            <div
+              class="flex flex-col p-6 text-center rounded-lg border shadow hover:scale-110 hover:shadow-xl transition duration-300"
+              :class="index === 0 ? 'text-gray-900 bg-white border-gray-100' : 'border-gray-600 bg-gray-800 text-white'">
+              <h3 class="mb-4 text-2xl font-semibold">{{ $rt(service.title) }}</h3>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
                 <template v-for="item in service.items">
                   <li class="flex justify-between items-center pb-2 border-b border-gray-200 last:border-b-0">
                     <span>{{ $rt(item.name) }}</span>
-                    <span class="font-semibold text-primary">{{ $rt(item.price) }}</span>
+                    <span class="font-semibold ">{{ $rt(item.price) }}</span>
                   </li>
+
                 </template>
               </ul>
-              <p class="text-gray-600 italic text-sm" v-if="service.description">{{ $rt(service.description) }}</p>
+              <p class="text-gray-200 italic text-sm" v-if="service.description">{{ $rt(service.description) }}</p>
             </div>
           </template>
         </div>
@@ -96,21 +97,22 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-16 bg-gray-100">
-      <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
-        <div class="md:w-1/2">
-          <img src="/images/about-us.jpg" :alt="$t('about.title')" width="736" height="617"
-            class="rounded-xl shadow-lg w-full h-auto object-cover">
-        </div>
-        <div class="md:w-1/2">
-          <h2 class="text-4xl font-bold text-primary mb-6">{{ $t('about.title') }}</h2>
-          <p class="text-gray-700 leading-relaxed mb-4">
+    <section id="about" class="py-16 bg-gray-100 ">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 text-white">
+        <div>
+          <h2 class="text-4xl font-bold  mb-6">{{ $t('about.title') }}</h2>
+          <p class=" leading-relaxed mb-4">
             {{ $t('about.description') }}
           </p>
-          <p class="text-gray-700 leading-relaxed">
+          <p class="text-gray-200 leading-relaxed">
             {{ $t('about.mission') }}
           </p>
         </div>
+        <div>
+          <img src="/images/about-us.jpg" :alt="$t('about.title')" width="736" height="617"
+            class="rounded-xl shadow-lg w-full h-auto object-cover">
+        </div>
+
       </div>
     </section>
 
@@ -119,7 +121,7 @@
       <div class="container mx-auto px-4">
         <h2 class="text-4xl font-bold text-center text-primary ">{{ $t('testimonials.title') }}</h2>
         <p class="text-lg text-center text-gray-700 mt-4 mb-12">{{ $t('testimonials.description') }}</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <template v-for="testimonial in $tm('testimonials.items')">
             <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
               <p class="text-gray-700 italic mb-6">"{{ $rt(testimonial.content) }}"</p>
@@ -139,7 +141,7 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer" class="bg-gray-800 text-white py-12">
+  <footer id="footer" class="bg-gray-900 text-white py-12">
     <div class="container mx-auto px-4">
       <!-- Footer content wrapper for two columns -->
       <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
@@ -244,3 +246,17 @@ useSeoMeta({
 });
 
 </script>
+
+<style>
+  #header {
+    background-image: linear-gradient(to right, rgba(105, 67, 41, 0.7), rgba(105, 67, 41, 0.95)), url('/images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #about {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0)), url('/images/about-us-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+</style>
