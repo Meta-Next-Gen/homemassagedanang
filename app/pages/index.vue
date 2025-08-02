@@ -1,5 +1,5 @@
 <template>
-  <header id="header" class="md:h-screen flex flex-col justify-between bg-cover bg-center ">
+  <header id="header" class="h-screen flex flex-col justify-between bg-cover bg-center ">
     <nav class="container mx-auto px-4 flex justify-between items-center">
       <!-- Logo -->
       <a href="#" class="block">
@@ -22,13 +22,13 @@
         </Transition>
       </div>
     </nav>
-    <section id="hero" class="container mx-auto grow flex items-center justify-center">
+    <section id="hero" class="container mx-auto grow grid grid-cols-1 md:grid-cols-2 items-center justify-center">
       <!-- Cột trái: Tiêu đề, giới thiệu và nút đặt lịch -->
-      <div class="md:w-1/2 text-center md:text-left animate-fade-in-up">
+      <div class="text-center md:text-left animate-fade-in-up px-2 md:px-0">
         <h1 class="text-4xl md:text-9xl font-extrabold leading-tight mb-6 text-white">
           {{ $t('hero.title') }} <span class="inline md:block">{{ $t('hero.subtitle') }}</span>
         </h1>
-        <hr class="w-3/4 text-white border-2 my-10" />
+        <hr class="hidden md:block md:w-3/4 text-white border-2 my-10" />
         <p class="text-lg md:text-xl mb-16 max-w-2xl mx-auto md:mx-0 text-white">
           {{ $t('hero.description') }}
         </p>
@@ -38,7 +38,7 @@
         </a>
       </div>
       <!-- Cột phải: Hình ảnh -->
-      <div class="md:w-1/2 order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
+      <div class="order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
         <img src="/images/hero.png" alt="Hình ảnh Massage" width="736" height="736"
           class="rounded-3xl h-auto object-cover">
       </div>
@@ -51,10 +51,10 @@
       <div class="container mx-auto px-4 py-16">
         <h2 class="text-4xl font-bold text-center text-primary">{{ $t('services.title') }}</h2>
         <p class="text-lg text-center text-gray-700 mt-4 mb-16">{{ $t('services.description') }}</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-8">
           <template v-for="item in $tm('services.items')">
             <div
-              class="max-w-sm bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
+              class="bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
               <img class="rounded-t-lg" :src="$rt(item.image)" alt="" />
               <div class="p-5">
                 <a href="#">
@@ -102,7 +102,7 @@
     <section id="about" class="py-16 bg-gray-100 ">
       <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 text-white">
         <div>
-          <h2 class="text-4xl font-bold  mb-6">{{ $t('about.title') }}</h2>
+          <h2 class="text-4xl font-bold text-center mb-6">{{ $t('about.title') }}</h2>
           <p class=" leading-relaxed mb-4">
             {{ $t('about.description') }}
           </p>
