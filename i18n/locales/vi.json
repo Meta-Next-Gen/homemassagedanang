@@ -1,111 +1,111 @@
 {
-  "seo":{
-    "title": "Massage tại nhà - Đà Nẵng - Thư Giãn Chuyên Nghiệp",
-    "description": "Khám phá dịch vụ massage thư giãn và trị liệu chuyên nghiệp tại Đà Nẵng. Đội ngũ kỹ thuật viên tay nghề cao, không gian yên tĩnh, giúp bạn phục hồi năng lượng."
+  "seo": {
+    "title": "HomeMassageDanang - Massage tại nhà Đà Nẵng",
+    "description": "Dịch vụ massage tại nhà chuyên nghiệp, tận tâm tại Đà Nẵng. Thư giãn, giảm căng thẳng và phục hồi năng lượng ngay tại không gian riêng của bạn."
   },
   "hero": {
-    "title": "Massage",
-    "subtitle": "Tại Nhà",
-    "description": "Trải nghiệm sự thư giãn tuyệt đối với dịch vụ massage chuyên nghiệp ngay tại ngôi nhà của bạn.",
-    "button": "Đặt Lịch Ngay"
+    "title": "Massage Tại Nhà",
+    "subtitle": "Đà Nẵng",
+    "description": "Tận hưởng liệu pháp massage cao cấp ngay tại nhà. Đội ngũ chuyên nghiệp, tay nghề cao, mang lại trải nghiệm thư giãn và phục hồi cơ thể tối ưu.",
+    "button": "Đặt Lịch"
   },
   "services": {
-    "title": "Dịch Vụ",
-    "description": "Chúng tôi cung cấp các dịch vụ massage chuyên nghiệp, giúp bạn thư giãn và phục hồi sức khỏe.",
+    "title": "Liệu Trình Chăm Sóc",
+    "description": "Chúng tôi cung cấp các liệu trình đa dạng, phù hợp với mọi nhu cầu thư giãn và trị liệu của bạn.",
     "items": [
       {
-        "title": "Massage Toàn Thân",
-        "description": "Giúp giảm căng thẳng, cải thiện tuần hoàn máu và mang lại cảm giác thư thái sâu sắc.",
+        "title": "Massage toàn thân",
+        "description": "Liệu pháp massage toàn thân giúp giảm căng thẳng, cải thiện tuần hoàn máu và mang lại cảm giác thư giãn sâu.",
         "image": "/images/service-body.jpg"
       },
       {
-        "title": "Massage Đá Nóng",
-        "description": "Sử dụng đá nóng giúp làm dịu cơ bắp, giảm đau nhức và tăng cường năng lượng.",
+        "title": "Massage đá nóng",
+        "description": "Sử dụng đá nóng để làm dịu cơ bắp căng thẳng, cải thiện tuần hoàn máu và mang lại cảm giác thư giãn sâu.",
         "image": "/images/service-hot-stones.jpg"
       },
       {
-        "title": "Giác hơi & Cạo gió",
-        "description": "Phương pháp đơn giản nhất để thanh nhiệt giải hàn, xóa bỏ các điểm tắc nghẽn trong kinh mạch.",
+        "title": "Cạo gió & Giác hơi",
+        "description": "Liệu pháp truyền thống giúp giải độc, tăng cường sức khỏe và cải thiện tuần hoàn máu.",
         "image": "/images/service-cupping.jpg"
       }
     ]
   },
   "price": {
-    "title": "Bảng Giá",
-    "description": "Chúng tôi cung cấp các gói dịch vụ đa dạng với mức giá hợp lý, phù hợp với nhu cầu của bạn.",
+    "title": "Chi Phí Dịch Vụ",
+    "description": "Các gói dịch vụ được thiết kế linh hoạt, đảm bảo chất lượng với chi phí hợp lý nhất.",
     "services": [
       {
-        "title": "Massage",
+        "title": "Massage Cơ Bản",
         "items": [
           {
             "name": "60 phút",
-            "price": "350K ₫"
+            "price": "400K ₫"
           },
           {
             "name": "90 phút",
-            "price": "450K ₫"
-          },
-          {
-            "name": "120 phút",
             "price": "550K ₫"
-          },
-          {
-            "name": "Đá nóng",
-            "price": "+50K ₫"
-          },
-          {
-            "name": "Giác hơi",
-            "price": "+50K ₫"
-          }
-        ]
-      },
-      {
-        "title": "VIP Massage",
-        "description": "* Trị liệu, thư giãn sâu kết hợp với đá nóng và giác hơi",
-        "items": [
-          {
-            "name": "90 phút",
-            "price": "600K ₫"
           },
           {
             "name": "120 phút",
             "price": "700K ₫"
+          },
+          {
+            "name": "Thêm đá nóng",
+            "price": "+60K ₫"
+          },
+          {
+            "name": "Thêm tinh dầu",
+            "price": "+40K ₫"
+          }
+        ]
+      },
+      {
+        "title": "Massage VIP",
+        "description": "* Kết hợp liệu trình trị liệu sâu với đá nóng và tinh dầu đặc biệt",
+        "items": [
+          {
+            "name": "90 phút",
+            "price": "800K ₫"
+          },
+          {
+            "name": "120 phút",
+            "price": "1000K ₫"
           }
         ]
       }
     ]
   },
   "about": {
-    "title": "Về Chúng Tôi",
-    "description": "Massage Tại Nhà Đà Nẵng tự hào là đơn vị cung cấp dịch vụ massage chuyên nghiệp, uy tín hàng đầu tại Đà Nẵng. Với đội ngũ kỹ thuật viên giàu kinh nghiệm, được đào tạo bài bản, chúng tôi cam kết mang đến cho quý khách những trải nghiệm thư giãn tuyệt vời nhất, ngay tại không gian riêng tư và thoải mái của bạn.\n\nSứ mệnh của chúng tôi là giúp bạn tái tạo năng lượng, giảm căng thẳng và cải thiện sức khỏe toàn diện sau những giờ làm việc mệt mỏi. Hãy để chúng tôi chăm sóc bạn!",
-    "mission": "Sứ mệnh của chúng tôi là giúp bạn tái tạo năng lượng, giảm căng thẳng và cải thiện sức khỏe toàn diện sau những giờ làm việc mệt mỏi. Hãy để chúng tôi chăm sóc bạn!"
+    "title": "Về chúng tôi",
+    "description": "HomeMassageDanang là đơn vị tiên phong trong lĩnh vực massage tại nhà ở Đà Nẵng. Với đội ngũ kỹ thuật viên được đào tạo chuyên sâu và kinh nghiệm thực tế, chúng tôi cam kết mang đến sự hài lòng tối đa cho khách hàng. \n\nChúng tôi đặt mục tiêu giúp bạn thư giãn sau những ngày làm việc căng thẳng, tái tạo năng lượng và cải thiện sức khỏe toàn diện. HomeMassageDanang - Chăm sóc sức khỏe ngay tại ngôi nhà của bạn.",
+    "mission": "Sứ mệnh của chúng tôi là mang đến trải nghiệm massage đẳng cấp, tiện lợi và an toàn, giúp cuộc sống của bạn trở nên thư thái và khỏe mạnh hơn."
   },
   "testimonials": {
-    "title": "Khách Hàng Nói Gì",
-    "description": "Đọc những đánh giá từ khách hàng của chúng tôi để hiểu rõ hơn về chất lượng dịch vụ.",
+    "title": "Nhận xét khách hàng",
+    "description": "Những cảm nhận thực tế từ khách hàng đã trải nghiệm dịch vụ của chúng tôi.",
     "items": [
       {
-        "name": "Hải Nguyễn",
-        "description": "TP Hồ Chí Minh",
-        "avatar": "https://avatar.iran.liara.run/public/43",
-        "content": "Dịch vụ rất chuyên nghiệp và tiện lợi. Kỹ thuật viên rất tận tâm và tay nghề cao. Tôi cảm thấy khỏe khoắn hơn rất nhiều sau buổi massage."
-      },
-      {
-        "name": "Vân Trần",
+        "name": "Thanh Mai",
         "description": "Đà Nẵng",
-        "avatar": "https://avatar.iran.liara.run/public/61",
-        "content": "Tôi rất hài lòng với chất lượng dịch vụ. Không gian tại nhà thật sự thoải mái, giúp tôi thư giãn hoàn toàn. Chắc chắn sẽ sử dụng lại."
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "Rất tiện lợi, kỹ thuật viên làm việc chuyên nghiệp, chu đáo. Tôi cảm thấy cơ thể nhẹ nhõm hơn nhiều sau buổi trị liệu."
       },
       {
-        "name": "Minh Tuấn",
-        "description": "Hà Nội",
+        "name": "Quang Minh",
+        "description": "Hội An",
+        "avatar": "https://avatar.iran.liara.run/public/61",
+        "content": "Chất lượng dịch vụ vượt trội. Tôi rất thích cách kỹ thuật viên lắng nghe và điều chỉnh phương pháp phù hợp với tình trạng sức khỏe của tôi."
+      },
+      {
+        "name": "Anh Thư",
+        "description": "Quảng Nam",
         "avatar": "https://avatar.iran.liara.run/public/43",
-        "content": "Dịch vụ massage tại nhà rất tiện lợi, không cần phải di chuyển xa. Kỹ thuật viên rất chuyên nghiệp và thân thiện. Tôi sẽ giới thiệu cho bạn bè."
+        "content": "Tôi đã thử nhiều nơi, nhưng dịch vụ tại HomeMassageDanang thực sự làm tôi hài lòng. Sẽ tiếp tục ủng hộ."
       }
     ]
   },
   "footer": {
-    "copyright": "© 2025 MassageInDaNang. Bảo lưu mọi quyền.",
-    "title": "Liên hệ ngay"
+    "copyright": "© 2025 HomeMassageDanang. Mọi quyền được bảo lưu.",
+    "title": "Thông tin liên hệ"
   }
 }

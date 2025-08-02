@@ -1,111 +1,111 @@
 {
-  "seo": {
-    "title": "上门按摩 - 岘港 - 专业放松服务",
-    "description": "探索岘港专业的放松和治疗按摩服务。我们拥有熟练的技师团队和宁静的环境，助您恢复活力。"
-  },
-  "hero": {
-    "title": "按摩",
-    "subtitle": "上门服务",
-    "description": "在我们专业的上门按摩服务中，体验极致的放松。",
-    "button": "立即预订"
-  },
-  "services": {
-    "title": "服务",
-    "description": "我们提供专业的按摩服务，帮助您放松和恢复健康。",
+ "seo": {
+  "title": "HomeMassageDanang - 岘港上门按摩服务",
+  "description": "岘港专业贴心的上门按摩服务。在您自己的私密空间里，放松身心，缓解压力，恢复活力。"
+ },
+ "hero": {
+  "title": "上门按摩",
+  "subtitle": "岘港",
+  "description": "在家即可享受高级按摩疗法。我们的专业团队技术娴熟，为您带来最佳的放松和身体恢复体验。",
+  "button": "立即预订"
+ },
+ "services": {
+  "title": "护理疗程",
+  "description": "我们提供多种疗程，满足您所有的放松和理疗需求。",
+  "items": [
+   {
+    "title": "全身按摩",
+    "description": "全身按摩有助于减轻压力，改善血液循环，带来深层放松。",
+    "image": "/images/service-body.jpg"
+   },
+   {
+    "title": "热石按摩",
+    "description": "使用热石舒缓紧张的肌肉，改善血液循环，带来深层放松感。",
+    "image": "/images/service-hot-stones.jpg"
+   },
+   {
+    "title": "刮痧和拔罐",
+    "description": "一种传统疗法，有助于排毒、增进健康和改善血液循环。",
+    "image": "/images/service-cupping.jpg"
+   }
+  ]
+ },
+ "price": {
+  "title": "服务价格",
+  "description": "我们的服务套餐设计灵活，以最合理的价格保证质量。",
+  "services": [
+   {
+    "title": "基础按摩",
     "items": [
-      {
-        "title": "全身按摩",
-        "description": "有助于减轻压力，改善血液循环，带来深度的放松感。",
-        "image": "/images/massage-body.svg"
-      },
-      {
-        "title": "热石按摩",
-        "description": "使用热石舒缓肌肉，减轻疼痛，增强能量。",
-        "image": "/images/massage-hot-stones.svg"
-      },
-      {
-        "title": "拔罐 & 刮痧",
-        "description": "最简单的方法可以清除热气和寒气，消除经络中的阻塞。",
-        "image": "/images/massage-herbal.svg"
-      }
+     {
+      "name": "60分钟",
+      "price": "400K ₫"
+     },
+     {
+      "name": "90分钟",
+      "price": "550K ₫"
+     },
+     {
+      "name": "120分钟",
+      "price": "700K ₫"
+     },
+     {
+      "name": "加热石",
+      "price": "+60K ₫"
+     },
+     {
+      "name": "加精油",
+      "price": "+40K ₫"
+     }
     ]
-  },
-  "price": {
-    "title": "价目表",
-    "description": "我们提供各种服务套餐，价格合理，满足您的需求。",
-    "services": [
-      {
-        "title": "按摩",
-        "items": [
-          {
-            "name": "60 分钟",
-            "price": "350K ₫"
-          },
-          {
-            "name": "90 分钟",
-            "price": "450K ₫"
-          },
-          {
-            "name": "120 分钟",
-            "price": "550K ₫"
-          },
-          {
-            "name": "热石",
-            "price": "+50K ₫"
-          },
-          {
-            "name": "拔罐",
-            "price": "+50K ₫"
-          }
-        ]
-      },
-      {
-        "title": "VIP 按摩",
-        "description": "* 深层治疗和放松，结合热石和拔罐。",
-        "items": [
-          {
-            "name": "90 分钟",
-            "price": "600K ₫"
-          },
-          {
-            "name": "120 分钟",
-            "price": "700K ₫"
-          }
-        ]
-      }
-    ]
-  },
-  "about": {
-    "title": "关于我们",
-    "description": "岘港上门按摩自豪地成为岘港领先的专业且信誉良好的按摩服务提供商。我们的技师团队经验丰富且经过专业培训，我们致力于在您私密舒适的空间里为您带来最美妙的放松体验。\n\n我们的使命是帮助您在辛苦工作后恢复能量，减轻压力，改善整体健康。让我们来照顾您吧！",
-    "mission": "我们的使命是帮助您在辛苦工作后恢复能量，减轻压力，改善整体健康。让我们来照顾您吧！"
-  },
-  "testimonials": {
-    "title": "客户评价",
-    "description": "阅读我们客户的评价，更好地了解我们的服务质量。",
+   },
+   {
+    "title": "VIP按摩",
+    "description": "* 结合深层理疗按摩、热石和特殊精油",
     "items": [
-      {
-        "name": "阮海 (Hải Nguyễn)",
-        "description": "胡志明市",
-        "avatar": "https://avatar.iran.liara.run/public/43",
-        "content": "服务非常专业和方便。技师非常敬业，技术娴熟。按摩后我感觉身体好多了。"
-      },
-      {
-        "name": "陈云 (Vân Trần)",
-        "description": "岘港",
-        "avatar": "https://avatar.iran.liara.run/public/61",
-        "content": "我对服务质量非常满意。家里的环境真的很舒适，让我完全放松了。我一定会再次使用这个服务。"
-      },
-      {
-        "name": "黎庆 (Minh Tuấn)",
-        "description": "河内",
-        "avatar": "https://avatar.iran.liara.run/public/43",
-        "content": "上门按摩服务非常方便，不用走远。技师非常专业和友好。我会推荐给我的朋友。"
-      }
+     {
+      "name": "90分钟",
+      "price": "800K ₫"
+     },
+     {
+      "name": "120分钟",
+      "price": "1000K ₫"
+     }
     ]
-  },
-  "footer": {
-    "copyright": "© 2025 MassageInDaNang. 版权所有。",
-    "title": "立即联系我们"
-  }
+   }
+  ]
+ },
+ "about": {
+  "title": "关于HomeMassageDanang",
+  "description": "HomeMassageDanang是岘港上门按摩服务的领先提供商。我们的技师团队经过专业培训，经验丰富，致力于为客户提供最大的满意度。\n\n我们的使命是帮助您在紧张工作后放松身心，恢复活力，改善整体健康。HomeMassageDanang - 在您家中呵护您的健康。",
+  "mission": "我们的使命是提供优质、便捷和安全的按摩体验，让您的生活更加轻松健康。"
+ },
+ "testimonials": {
+  "title": "客户评价",
+  "description": "来自体验过我们服务的客户的真实反馈。",
+  "items": [
+   {
+    "name": "Thanh Mai",
+    "description": "岘港",
+    "avatar": "https://avatar.iran.liara.run/public/43",
+    "content": "非常方便，技师专业又细心。理疗后我感觉身体轻松了很多。"
+   },
+   {
+    "name": "Quang Minh",
+    "description": "会安",
+    "avatar": "https://avatar.iran.liara.run/public/61",
+    "content": "服务质量非常出色。我很喜欢技师根据我的健康状况进行调整的方式。"
+   },
+   {
+    "name": "Anh Thư",
+    "description": "广南",
+    "avatar": "https://avatar.iran.liara.run/public/43",
+    "content": "我试过很多地方，但HomeMassageDanang的服务让我非常满意。我会继续支持的。"
+   }
+  ]
+ },
+ "footer": {
+  "copyright": "© 2025 HomeMassageDanang. 保留所有权利。",
+  "title": "联系我们"
+ }
 }
