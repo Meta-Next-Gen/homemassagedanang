@@ -64,11 +64,14 @@ export default defineNuxtConfig({
       { code: 'kr', iso: 'ko-KR', language: 'ko-KR', name: '한국어', file: 'kr.json' }
     ],
   },
+  gtag: {
+    id: 'GTM-5DTP87RT'
+  },
   vite: {
     plugins: [
       tailwindcss(),
     ],
   },
 
-  modules: ['@nuxtjs/i18n', '@vueuse/nuxt']
+  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', 'nuxt-gtag']
 })
