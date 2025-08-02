@@ -1,27 +1,111 @@
 {
-  "nav-features": "Đặc điểm",
-  "nav-services": "Dịch vụ",
-  "nav-testimonials": "Lời chứng thực",
-  "nav-contact": "Liên hệ",
-  "nav-about": "Về chúng tôi",
-  "nav-home": "Trang chủ",
-  "nav-booking": "Đặt lịch",
-  "nav-language": "Ngôn ngữ",
-  "hero-title": "Dịch vụ massage tại nhà Đà Nẵng",
-  "hero-subtitle": "Chúng tôi cung cấp dịch vụ massage tại nhà chuyên nghiệp tại Đà Nẵng",
-  "hero-slogan": "Chuyên cung cấp massage tại nhà Đà Nẵng.",
-  "feature-header": "Đặc điểm nổi bật",
-  "feature-benefits": "Lợi ích",
-  "service-header": "Dịch vụ của chúng tôi",
-  "testimonial-header": "Lời chứng thực",
-  "testimonial-subtitle": "Khách hàng của chúng tôi nói gì về dịch vụ của chúng tôi",
-  "error-title": "Trang này không tồn tại, nhưng một buổi massage thư giãn thì luôn có sẵn!",
-  "error-subtitle": "Hãy đặt lịch ngay!",
-  "$vuetify": {
-    "rating": {
-      "ariaLabel": {
-        "item": "Rating {value} of {max}"
+  "seo":{
+    "title": "Massage tại nhà - Đà Nẵng - Thư Giãn Chuyên Nghiệp",
+    "description": "Khám phá dịch vụ massage thư giãn và trị liệu chuyên nghiệp tại Đà Nẵng. Đội ngũ kỹ thuật viên tay nghề cao, không gian yên tĩnh, giúp bạn phục hồi năng lượng."
+  },
+  "hero": {
+    "title": "Massage",
+    "subtitle": "Tại Nhà",
+    "description": "Trải nghiệm sự thư giãn tuyệt đối với dịch vụ massage chuyên nghiệp ngay tại ngôi nhà của bạn.",
+    "button": "Đặt Lịch Ngay"
+  },
+  "services": {
+    "title": "Dịch Vụ",
+    "description": "Chúng tôi cung cấp các dịch vụ massage chuyên nghiệp, giúp bạn thư giãn và phục hồi sức khỏe.",
+    "items": [
+      {
+        "title": "Massage Toàn Thân",
+        "description": "Giúp giảm căng thẳng, cải thiện tuần hoàn máu và mang lại cảm giác thư thái sâu sắc.",
+        "image": "/images/massage-body.svg"
+      },
+      {
+        "title": "Massage Đá Nóng",
+        "description": "Sử dụng đá nóng giúp làm dịu cơ bắp, giảm đau nhức và tăng cường năng lượng.",
+        "image": "/images/massage-hot-stones.svg"
+      },
+      {
+        "title": "Giác hơi & Cạo gió",
+        "description": "Phương pháp đơn giản nhất để thanh nhiệt giải hàn, xóa bỏ các điểm tắc nghẽn trong kinh mạch.",
+        "image": "/images/massage-herbal.svg"
       }
-    }
+    ]
+  },
+  "price": {
+    "title": "Bảng Giá",
+    "description": "Chúng tôi cung cấp các gói dịch vụ đa dạng với mức giá hợp lý, phù hợp với nhu cầu của bạn.",
+    "services": [
+      {
+        "title": "Massage",
+        "items": [
+          {
+            "name": "60 phút",
+            "price": "350K ₫"
+          },
+          {
+            "name": "90 phút",
+            "price": "450K ₫"
+          },
+          {
+            "name": "120 phút",
+            "price": "550K ₫"
+          },
+          {
+            "name": "Đá nóng",
+            "price": "+50K ₫"
+          },
+          {
+            "name": "Giác hơi",
+            "price": "+50K ₫"
+          }
+        ]
+      },
+      {
+        "title": "VIP Massage",
+        "description": "* Trị liệu, thư giãn sâu kết hợp với đá nóng và giác hơi",
+        "items": [
+          {
+            "name": "90 phút",
+            "price": "600K ₫"
+          },
+          {
+            "name": "120 phút",
+            "price": "700K ₫"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "Về Chúng Tôi",
+    "description": "Massage Tại Nhà Đà Nẵng tự hào là đơn vị cung cấp dịch vụ massage chuyên nghiệp, uy tín hàng đầu tại Đà Nẵng. Với đội ngũ kỹ thuật viên giàu kinh nghiệm, được đào tạo bài bản, chúng tôi cam kết mang đến cho quý khách những trải nghiệm thư giãn tuyệt vời nhất, ngay tại không gian riêng tư và thoải mái của bạn.\n\nSứ mệnh của chúng tôi là giúp bạn tái tạo năng lượng, giảm căng thẳng và cải thiện sức khỏe toàn diện sau những giờ làm việc mệt mỏi. Hãy để chúng tôi chăm sóc bạn!",
+    "mission": "Sứ mệnh của chúng tôi là giúp bạn tái tạo năng lượng, giảm căng thẳng và cải thiện sức khỏe toàn diện sau những giờ làm việc mệt mỏi. Hãy để chúng tôi chăm sóc bạn!"
+  },
+  "testimonials": {
+    "title": "Khách Hàng Nói Gì",
+    "description": "Đọc những đánh giá từ khách hàng của chúng tôi để hiểu rõ hơn về chất lượng dịch vụ.",
+    "items": [
+      {
+        "name": "Hải Nguyễn",
+        "description": "TP Hồ Chí Minh",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "Dịch vụ rất chuyên nghiệp và tiện lợi. Kỹ thuật viên rất tận tâm và tay nghề cao. Tôi cảm thấy khỏe khoắn hơn rất nhiều sau buổi massage."
+      },
+      {
+        "name": "Vân Trần",
+        "description": "Đà Nẵng",
+        "avatar": "https://avatar.iran.liara.run/public/61",
+        "content": "Tôi rất hài lòng với chất lượng dịch vụ. Không gian tại nhà thật sự thoải mái, giúp tôi thư giãn hoàn toàn. Chắc chắn sẽ sử dụng lại."
+      },
+      {
+        "name": "Minh Tuấn",
+        "description": "Hà Nội",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "Dịch vụ massage tại nhà rất tiện lợi, không cần phải di chuyển xa. Kỹ thuật viên rất chuyên nghiệp và thân thiện. Tôi sẽ giới thiệu cho bạn bè."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 MassageInDaNang. Bảo lưu mọi quyền.",
+    "title": "Liên hệ ngay"
   }
 }

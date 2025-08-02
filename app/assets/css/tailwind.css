@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@import "tailwindcss-animated";
+
+@theme{
+  --color-primary: #986944;  
+}
+
+
+body {
+  font-family: 'Lora', serif;
+  /* Font chữ cho toàn bộ nội dung */
+  scroll-behavior: smooth;  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;  
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

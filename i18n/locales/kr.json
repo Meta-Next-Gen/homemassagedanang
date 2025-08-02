@@ -1,27 +1,111 @@
 {
-  "nav-features": "특징",
-  "nav-services": "서비스",
-  "nav-testimonials": "고객 후기",
-  "nav-contact": "문의하기",
-  "nav-about": "회사 소개",
-  "nav-home": "홈",
-  "nav-booking": "예약하기",
-  "nav-language": "언어",
-  "hero-title": "다낭 홈 마사지 서비스",
-  "hero-subtitle": "저희는 다낭에서 전문적인 홈 마사지 서비스를 제공합니다",
-  "hero-slogan": "다낭 홈 마사지 전문 서비스",
-  "feature-header": "주요 특징",
-  "feature-benefits": "혜택",
-  "service-header": "저희 서비스",
-  "testimonial-header": "고객 후기",
-  "testimonial-subtitle": "저희 서비스에 대한 고객님의 소중한 의견",
-  "error-title": "이 페이지는 존재하지 않지만, 편안한 마사지는 언제나 가능합니다!",
-  "error-subtitle": "지금 예약하세요!",
-  "$vuetify": {
-    "rating": {
-      "ariaLabel": {
-        "item": "Rating {value} of {max}"
+  "seo": {
+    "title": "출장 마사지 - 다낭 - 전문 힐링 서비스",
+    "description": "다낭에서 전문적이고 편안한 출장 마사지 서비스를 경험하세요. 숙련된 테라피스트와 조용한 공간에서 활력을 되찾으세요."
+  },
+  "hero": {
+    "title": "마사지",
+    "subtitle": "출장 서비스",
+    "description": "편안한 집에서 전문 마사지 서비스를 경험하고 최고의 휴식을 즐기세요.",
+    "button": "지금 예약하기"
+  },
+  "services": {
+    "title": "서비스",
+    "description": "우리는 고객님의 편안한 휴식과 건강 회복을 돕기 위해 전문적인 마사지 서비스를 제공합니다.",
+    "items": [
+      {
+        "title": "전신 마사지",
+        "description": "스트레스를 줄이고 혈액 순환을 개선하며 깊은 이완감을 가져다줍니다.",
+        "image": "/images/massage-body.svg"
+      },
+      {
+        "title": "핫스톤 마사지",
+        "description": "따뜻한 돌을 사용하여 근육을 부드럽게 풀고 통증을 완화하며 에너지를 보충합니다.",
+        "image": "/images/massage-hot-stones.svg"
+      },
+      {
+        "title": "부항 & 괄사",
+        "description": "가장 간단한 방법으로 열과 냉기를 제거하고 막힌 경락을 풀어줍니다.",
+        "image": "/images/massage-herbal.svg"
       }
-    }
+    ]
+  },
+  "price": {
+    "title": "가격표",
+    "description": "우리는 고객님의 요구에 맞춰 다양한 가격대의 서비스 패키지를 제공합니다.",
+    "services": [
+      {
+        "title": "마사지",
+        "items": [
+          {
+            "name": "60분",
+            "price": "350K ₫"
+          },
+          {
+            "name": "90분",
+            "price": "450K ₫"
+          },
+          {
+            "name": "120분",
+            "price": "550K ₫"
+          },
+          {
+            "name": "핫스톤",
+            "price": "+50K ₫"
+          },
+          {
+            "name": "부항",
+            "price": "+50K ₫"
+          }
+        ]
+      },
+      {
+        "title": "VIP 마사지",
+        "note": "* 핫스톤과 부항을 결합한 깊은 치료 및 이완 서비스입니다.",
+        "items": [
+          {
+            "name": "90분",
+            "price": "600K ₫"
+          },
+          {
+            "name": "120분",
+            "price": "700K ₫"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "회사 소개",
+    "description": "다낭 홈 마사지는 다낭 최고의 전문적이고 신뢰할 수 있는 마사지 서비스 제공업체입니다. 숙련되고 잘 훈련된 기술자 팀과 함께 고객님의 프라이빗하고 편안한 공간에서 최고의 휴식 경험을 선사할 것을 약속드립니다.\n\n우리의 사명은 힘든 업무 시간 후 고객님의 에너지를 재충전하고, 스트레스를 줄이며, 전반적인 건강을 개선하는 것입니다. 고객님의 관리를 저희에게 맡겨주세요!",
+    "mission": "우리의 사명은 힘든 업무 시간 후 고객님의 에너지를 재충전하고, 스트레스를 줄이며, 전반적인 건강을 개선하는 것입니다. 고객님의 관리를 저희에게 맡겨주세요!"
+  },
+  "testimonials": {
+    "title": "고객 후기",
+    "description": "서비스 품질에 대해 더 잘 이해하기 위해 고객님들의 후기를 읽어보세요.",
+    "items": [
+      {
+        "name": "하이 응우옌",
+        "description": "호찌민시",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "서비스는 매우 전문적이고 편리합니다. 기술자는 매우 헌신적이고 숙련되어 있습니다. 마사지를 받은 후 몸이 훨씬 더 건강해진 것을 느꼈습니다."
+      },
+      {
+        "name": "반 쩐",
+        "description": "다낭",
+        "avatar": "https://avatar.iran.liara.run/public/61",
+        "content": "서비스 품질에 매우 만족합니다. 집에서 편안하게 휴식할 수 있는 공간이어서 완전히 이완되었습니다. 다시 이용할 의향이 있습니다."
+      },
+      {
+        "name": "민 뚜언",
+        "description": "하노이",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "출장 마사지 서비스는 멀리 이동할 필요가 없어 매우 편리합니다. 기술자들은 매우 전문적이고 친절했습니다. 친구들에게 추천할 것입니다."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 MassageInDaNang. 모든 권리 보유.",
+    "title": "지금 연락하기"
   }
 }

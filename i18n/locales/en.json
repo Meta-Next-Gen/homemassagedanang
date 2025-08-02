@@ -1,27 +1,111 @@
 {
-  "nav-features": "Features",
-  "nav-services": "Services",
-  "nav-testimonials": "Testimonials",
-  "nav-contact": "Contact",
-  "nav-about": "About Us",
-  "nav-home": "Home",
-  "nav-booking": "Booking",
-  "nav-language": "Language",
-  "hero-title": "Home Massage Service in Da Nang",
-  "hero-subtitle": "We provide professional home massage services in Da Nang",
-  "hero-slogan": "Specializing in home massage services in Da Nang.",
-  "feature-header": "Key Features",
-  "feature-benefits": "Benefits",
-  "service-header": "Our Services",
-  "testimonial-header": "Testimonials",
-  "testimonial-subtitle": "What our customers say about our service",
-  "error-title": "This page doesn't exist, but a relaxing massage is always available!",
-  "error-subtitle": "Book your session now!",
-  "$vuetify": {
-    "rating": {
-      "ariaLabel": {
-        "item": "Rating {value} of {max}"
+  "seo": {
+    "title": "Home Massage - Da Nang - Professional Relaxation",
+    "description": "Discover professional relaxing and therapeutic massage services in Da Nang. Our skilled technicians and peaceful environment will help you rejuvenate."
+  },
+  "hero": {
+    "title": "Home",
+    "subtitle": "Massage",
+    "description": "Experience total relaxation with our professional at-home massage service.",
+    "button": "Book Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer a range of professional massage services to help you relax and recover.",
+    "items": [
+      {
+        "title": "Full Body Massage",
+        "description": "Helps relieve stress, improve blood circulation, and provides a feeling of deep relaxation.",
+        "image": "/images/massage-body.svg"
+      },
+      {
+        "title": "Hot Stone Massage",
+        "description": "Using hot stones to soothe muscles, relieve pain, and boost energy.",
+        "image": "/images/massage-hot-stones.svg"
+      },
+      {
+        "title": "Cupping & Scraping",
+        "description": "The simplest method to remove heat and cold, and clear blockages in the meridians.",
+        "image": "/images/massage-herbal.svg"
       }
-    }
+    ]
+  },
+  "price": {
+    "title": "Price List",
+    "description": "We offer a variety of service packages at reasonable prices, tailored to your needs.",
+    "services": [
+      {
+        "title": "Massage",
+        "items": [
+          {
+            "name": "60 minutes",
+            "price": "350K ₫"
+          },
+          {
+            "name": "90 minutes",
+            "price": "450K ₫"
+          },
+          {
+            "name": "120 minutes",
+            "price": "550K ₫"
+          },
+          {
+            "name": "Hot stones",
+            "price": "+50K ₫"
+          },
+          {
+            "name": "Cupping",
+            "price": "+50K ₫"
+          }
+        ]
+      },
+      {
+        "title": "VIP Massage",
+        "description": "* Deep therapeutic relaxation combined with hot stones and cupping.",
+        "items": [
+          {
+            "name": "90 minutes",
+            "price": "600K ₫"
+          },
+          {
+            "name": "120 minutes",
+            "price": "700K ₫"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Home Massage Da Nang is proud to be a leading professional and reputable massage service provider in Da Nang. With a team of experienced and well-trained technicians, we are committed to bringing you the most wonderful relaxing experience, right in your private and comfortable space.\n\nOur mission is to help you regenerate energy, reduce stress, and improve your overall health after long working hours. Let us take care of you!",
+    "mission": "Our mission is to help you regenerate energy, reduce stress, and improve your overall health after long working hours. Let us take care of you!"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "description": "Read what our customers have to say to better understand the quality of our services.",
+    "items": [
+      {
+        "name": "John Smith",
+        "description": "New York",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "The service is very professional and convenient. The technician is very dedicated and highly skilled. I feel so much better after the massage."
+      },
+      {
+        "name": "Mary Johnson",
+        "description": "Los Angeles",
+        "avatar": "https://avatar.iran.liara.run/public/61",
+        "content": "I am very satisfied with the quality of the service. The at-home environment is truly comfortable, helping me to completely relax. I will definitely use this service again."
+      },
+      {
+        "name": "Michael Brown",
+        "description": "Chicago",
+        "avatar": "https://avatar.iran.liara.run/public/43",
+        "content": "The at-home massage service is very convenient; no need to travel far. The technicians are professional and friendly. I will recommend it to my friends."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 MassageInDaNang. All rights reserved.",
+    "title": "Contact Us Now"
   }
 }
