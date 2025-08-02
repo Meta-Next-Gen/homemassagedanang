@@ -163,31 +163,24 @@
         <div class="text-center md:text-right md:w-1/2 order-first md:order-last mb-10">
           <p class="text-lg font-semibold mb-4">{{ $t('footer.title') }}</p>
           <div class="flex justify-center md:justify-end space-x-6">
-            <a href="tel:0789489459" class="text-gray-400 hover:text-white transition duration-300">
+            <a href="tel:0935922854" class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/phone.svg" alt="Phone" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://www.facebook.com/lien.phan.413325#"
+            <a href="https://www.messenger.com/t/100009511365248"
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/facebook.svg" alt="Facebook" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="http://qr.kakao.com/talk/RKGLmzR6kDq4.b17wlsO.ClBFiw-"
+            <a href="http://qr.kakao.com/talk/0diNs_cW8DuEbDIrdyHsbGQsh5Q-"
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/kakaotalk.svg" alt="KakaoTalk" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://zaloapp.com/qr/p/140qbin8a5e2d?src=qr"
+            <a href="https://zalo.me/0935922854"
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/zalo.svg" alt="Zalo" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://wa.me/qr/WJTF2BIQME3EB1" class="text-gray-400 hover:text-white transition duration-300">
+            <a href="https://wa.me/qr/XETIG4TOJI5QO1" class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-6 w-6" width="24" height="24">
-            </a>
-            <a href="https://u.wechat.com/kKScc93Ie77PvEZe-8hpzYI?s=2"
-              class="text-gray-400 hover:text-white transition duration-300">
-              <img src="/logos/wechat.svg" alt="WeChat" class="h-6 w-6" width="24" height="24">
-            </a>
-            <a href="https://vt.tiktok.com/ZSS8nQFrv/" class="text-gray-400 hover:text-white transition duration-300">
-              <img src="/logos/tiktok.svg" alt="TikTok" class="h-6 w-6" width="24" height="24">
-            </a>
+            </a>            
           </div>
         </div>
       </div>
@@ -196,7 +189,7 @@
 
   <div class="fixed bottom-8 right-8 z-50">
     <button
-      class="bg-primary text-white p-1 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-110 cursor-pointer"
+      class="bg-white p-1 rounded-full shadow-lg hover:bg-gray-400 transition duration-300 transform hover:scale-110 cursor-pointer"
       @click="state.showHelp = !state.showHelp" aria-label="Contact Us">
       <img src="/logos/help.svg" alt="Help" class="h-12 w-12">
     </button>
@@ -204,27 +197,21 @@
     <Transition enter-active-class="animate-fade-up" leave-active-class="animate-fade-up animate-reverse">
       <div v-if="state.showHelp" v-on-click-outside="() => state.showHelp = false"
         class="absolute bottom-full right-1/2 translate-x-1/2 rounded-xl grid gap-3 mb-4 bg-white shadow-lg">
-        <a href="tel:0789489459" target="_blank">
+        <a href="tel:0935922854" target="_blank">
           <img src="/logos/phone.svg" alt="Phone" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>
-        <a href="https://www.facebook.com/lien.phan.413325#" target="_blank">
+        <a href="https://www.messenger.com/t/100009511365248" target="_blank">
           <img src="/logos/facebook.svg" alt="Facebook" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>
-        <a href="http://qr.kakao.com/talk/RKGLmzR6kDq4.b17wlsO.ClBFiw-" target="_blank">
+        <a href="http://qr.kakao.com/talk/0diNs_cW8DuEbDIrdyHsbGQsh5Q-" target="_blank">
           <img src="/logos/kakaotalk.svg" alt="KakaoTalk" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>
-        <a href="https://zaloapp.com/qr/p/140qbin8a5e2d?src=qr" target="_blank">
+        <a href="https://zalo.me/0935922854" target="_blank">
           <img src="/logos/zalo.svg" alt="Zalo" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>
-        <a href="https://wa.me/qr/WJTF2BIQME3EB1" target="_blank">
+        <a href="https://wa.me/qr/XETIG4TOJI5QO1" target="_blank">
           <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-10 w-10 hover:scale-110 transition duration-300">
-        </a>
-        <a href="https://u.wechat.com/kKScc93Ie77PvEZe-8hpzYI?s=2" target="_blank">
-          <img src="/logos/wechat.svg" alt="WeChat" class="h-10 w-10 hover:scale-110 transition duration-300">
-        </a>
-        <a href="https://vt.tiktok.com/ZSS8nQFrv/" target="_blank">
-          <img src="/logos/tiktok.svg" alt="TikTok" class="h-10 w-10 hover:scale-110 transition duration-300">
-        </a>
+        </a>        
       </div>
     </Transition>
   </div>
