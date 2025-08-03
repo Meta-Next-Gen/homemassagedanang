@@ -64,9 +64,14 @@ export default defineNuxtConfig({
       { code: 'kr', iso: 'ko-KR', language: 'ko-KR', name: '한국어', file: 'kr.json' }
     ],
   },
-  gtag: {
-    enabled: process.env.NODE_ENV === 'production',
-    id: 'GTM-5DTP87RT'
+  $production: {
+    scripts: {
+      registry: {
+        googleTagManager: {
+          id: 'GTM-5DTP87RT',
+        }
+      }
+    }
   },
   vite: {
     plugins: [
@@ -74,5 +79,5 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', 'nuxt-gtag']
+  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', '@nuxt/scripts']
 })
