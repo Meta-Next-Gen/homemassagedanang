@@ -22,10 +22,10 @@
         </Transition>
       </div>
     </nav>
-    <section id="hero" class="container mx-auto grow grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+    <section id="hero" class="container mx-auto grow grid grid-cols-1 md:grid-cols-2 items-center ">
       <!-- Cột trái: Tiêu đề, giới thiệu và nút đặt lịch -->
-      <div class="text-center md:text-left animate-fade-in-up px-2 md:px-0">
-        <h1 class="text-4xl md:text-9xl font-extrabold leading-tight mb-6 text-white">
+      <div class="text-center md:text-left animate-fade-in-up px-2 ">
+        <h1 class="text-4xl md:text-8xl font-extrabold leading-tight text-white">
           {{ $t('hero.title') }} <span class="inline md:block">{{ $t('hero.subtitle') }}</span>
         </h1>
         <hr class="hidden md:block md:w-3/4 text-white border-2 my-10" />
@@ -40,7 +40,7 @@
       <!-- Cột phải: Hình ảnh -->
       <div class="order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
         <img src="/images/hero.png" alt="Hình ảnh Massage" width="736" height="736"
-          class="rounded-3xl h-auto object-cover">
+          class="rounded-3xl object-contain">
       </div>
     </section>
   </header>
