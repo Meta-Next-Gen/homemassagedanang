@@ -178,9 +178,14 @@
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/zalo.svg" alt="Zalo" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://wa.me/qr/XETIG4TOJI5QO1" class="text-gray-400 hover:text-white transition duration-300">
+            <a href="https://wa.me/qr/XETIG4TOJI5QO1" 
+              class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-6 w-6" width="24" height="24">
             </a>            
+            <a href="https://u.wechat.com/kO-ri94s652iegVmaHFDtlw?s=2"
+              class="text-gray-400 hover:text-white transition duration-300">
+              <img src="/logos/wechat.svg" alt="WeChat" class="h-6 w-6" width="24" height="24">
+            </a>
           </div>
         </div>
       </div>
@@ -212,6 +217,9 @@
         <a href="https://wa.me/qr/XETIG4TOJI5QO1" target="_blank">
           <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>        
+        <a href="https://u.wechat.com/kO-ri94s652iegVmaHFDtlw?s=2" target="_blank">
+          <img src="/logos/wechat.svg" alt="WeChat" class="h-10 w-10 hover:scale-110 transition duration-300">
+        </a>
       </div>
     </Transition>
   </div>
