@@ -39,8 +39,7 @@
       </div>
       <!-- Cột phải: Hình ảnh -->
       <div class="order-first md:order-last flex justify-center md:justify-end animate-fade-in-up delay-200">
-        <img src="/images/hero.png" alt="Hình ảnh Massage" width="736" height="736"
-          class="rounded-3xl object-contain">
+        <img src="/images/hero.png" alt="Hình ảnh Massage" width="736" height="736" class="rounded-3xl object-contain">
       </div>
     </section>
   </header>
@@ -53,8 +52,7 @@
         <p class="text-lg text-center text-gray-700 mt-4 mb-16">{{ $t('services.description') }}</p>
         <div class="grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-8">
           <template v-for="item in $tm('services.items')">
-            <div
-              class="bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
+            <div class="bg-white rounded-lg shadow hover:shadow-xl hover:scale-110 transition duration-300 text-center">
               <img class="rounded-t-lg" :src="$rt(item.image)" alt="" />
               <div class="p-5">
                 <a href="#">
@@ -174,14 +172,12 @@
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/kakaotalk.svg" alt="KakaoTalk" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://zalo.me/0935922854"
-              class="text-gray-400 hover:text-white transition duration-300">
+            <a href="https://zalo.me/0935922854" class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/zalo.svg" alt="Zalo" class="h-6 w-6" width="24" height="24">
             </a>
-            <a href="https://wa.me/qr/XETIG4TOJI5QO1" 
-              class="text-gray-400 hover:text-white transition duration-300">
+            <a href="https://wa.me/qr/XETIG4TOJI5QO1" class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-6 w-6" width="24" height="24">
-            </a>            
+            </a>
             <a href="https://u.wechat.com/kO-ri94s652iegVmaHFDtlw?s=2"
               class="text-gray-400 hover:text-white transition duration-300">
               <img src="/logos/wechat.svg" alt="WeChat" class="h-6 w-6" width="24" height="24">
@@ -216,7 +212,7 @@
         </a>
         <a href="https://wa.me/qr/XETIG4TOJI5QO1" target="_blank">
           <img src="/logos/whatsapp.svg" alt="WhatsApp" class="h-10 w-10 hover:scale-110 transition duration-300">
-        </a>        
+        </a>
         <a href="https://u.wechat.com/kO-ri94s652iegVmaHFDtlw?s=2" target="_blank">
           <img src="/logos/wechat.svg" alt="WeChat" class="h-10 w-10 hover:scale-110 transition duration-300">
         </a>
@@ -227,22 +223,22 @@
 </template>
 
 <script lang="ts" setup>
-const { locale, locales, setLocale, t } = useI18n()
-import { vOnClickOutside } from '@vueuse/components'
+  const { locale, locales, setLocale, t } = useI18n()
+  import { vOnClickOutside } from '@vueuse/components'
 
 
-const state = reactive({
-  showLanguage: false,
-  showHelp: false
-})
+  const state = reactive({
+    showLanguage: false,
+    showHelp: false
+  })
 
-useSeoMeta({
-  title: t('seo.title'),
-  ogTitle: t('seo.title'),
-  description: t('seo.description'),
-  ogDescription: t('seo.description'),
-  ogImage: 'https://homemassagedanang.com/images/og-image.jpg'
-});
+  useSeoMeta({
+    title: t('seo.title'),
+    ogTitle: t('seo.title'),
+    description: t('seo.description'),
+    ogDescription: t('seo.description'),
+    ogImage: 'https://homemassagedanang.com/images/og-image.jpg'
+  });
 
 </script>
 

@@ -64,6 +64,10 @@ export default defineNuxtConfig({
       { code: 'kr', iso: 'ko-KR', language: 'ko-KR', name: '한국어', file: 'kr.json' }
     ],
   },
+  site: {
+    url: 'https://homemassagedanang.com',
+    name: 'Home Massage Danang - Professional massage service in Da Nang. Skilled therapists, tranquil environment, energy recovery.',
+  },
   $production: {
     scripts: {
       registry: {
@@ -79,5 +83,5 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', '@nuxt/scripts']
+  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', '@nuxt/scripts', '@nuxtjs/sitemap']
 })
