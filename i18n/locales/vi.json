@@ -39,15 +39,15 @@
         "items": [
           {
             "name": "60 phút",
-            "price": "400K ₫"
+            "price": "450K ₫"
           },
           {
             "name": "90 phút",
-            "price": "500K ₫"
+            "price": "600K ₫"
           },
           {
             "name": "120 phút",
-            "price": "650K ₫"
+            "price": "750K ₫"
           },
           {
             "name": "Thêm đá nóng",
@@ -65,11 +65,11 @@
         "items": [
           {
             "name": "90 phút",
-            "price": "600K ₫"
+            "price": "650K ₫"
           },
           {
             "name": "120 phút",
-            "price": "700K ₫"
+            "price": "800K ₫"
           }
         ]
       }
