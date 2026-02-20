@@ -39,15 +39,15 @@
         "items": [
           {
             "name": "60 minutes",
-            "price": "370K ₫"
+            "price": "450K ₫"
           },
           {
             "name": "90 minutes",
-            "price": "500K ₫"
+            "price": "600K ₫"
           },
           {
             "name": "120 minutes",
-            "price": "650K ₫"
+            "price": "750K ₫"
           },
           {
             "name": "Add hot stones",
@@ -65,11 +65,11 @@
         "items": [
           {
             "name": "90 minutes",
-            "price": "600K ₫"
+            "price": "650K ₫"
           },
           {
             "name": "120 minutes",
-            "price": "700K ₫"
+            "price": "800K ₫"
           }
         ]
       }
