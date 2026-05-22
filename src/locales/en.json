@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Home Massage Da Nang - Professional In-Home Massage Service",
+    "description": "Professional in-home massage service in Da Nang. Traditional, therapeutic, cupping, and gua sha. Open 24/7. Book via hotline 0935-922-854.",
+    "ogTitle": "Home Massage Da Nang - Professional In-Home Massage Service",
+    "ogDescription": "Professional in-home massage service in Da Nang. Traditional, therapeutic, cupping, and gua sha. Open 24/7. Book via hotline 0935-922-854.",
+    "twitterTitle": "Home Massage Da Nang - Professional In-Home Massage Service",
+    "twitterDescription": "Professional in-home massage service in Da Nang. Open 24/7. Hotline 0935-922-854.",
+    "ogImage": "https://homemassagedanang.com/og-image-en.jpg",
+    "ogUrl": "https://homemassagedanang.com/en/",
+    "ogLocale": "en_US",
+    "ogLocaleAlternate": "vi_VN"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "benefits": "Benefits",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "callNow": "Call 0935-922-854",
+    "menuLabel": "Menu"
+  },
+  "hero": {
+    "badge": "In-Home Massage · Da Nang",
+    "titlePart1": "Professional",
+    "titlePart2": "in-home",
+    "titleHighlight": "massage",
+    "desc": "Bring the relaxing spa experience to your home. Restore your energy and relieve stress with our dedicated, well-trained therapists.",
+    "ctaBook": "Book an Appointment",
+    "trustText": "Trusted by 2,000+ clients in Da Nang"
+  },
+  "about": {
+    "kicker": "About Us",
+    "titlePart1": "Wellness & relaxation",
+    "titlePart2": "right at your home",
+    "desc": "Home Massage Da Nang was founded with the mission of bringing maximum health and relaxation to clients without the need to travel. We pride ourselves on delivering the highest-quality, safest, and most convenient in-home massage service in Da Nang.",
+    "features": [
+      { "title": "Convenient", "desc": "Massage at your home or hotel" },
+      { "title": "Professional", "desc": "Thoroughly trained therapists" },
+      { "title": "Fair Pricing", "desc": "Transparent rates, no hidden fees" },
+      { "title": "24/7 Service", "desc": "Ready whenever you need us" }
+    ],
+    "cardTrustPrefix": "Trusted by",
+    "cardTrustCount": "2,000+",
+    "cardTrustSuffix": "clients in Da Nang"
+  },
+  "services": {
+    "kicker": "Treatments",
+    "title": "Our Services",
+    "subtitle": "Choose the treatment that best fits your body's needs",
+    "minutes": "min",
+    "price": "Price",
+    "bookNow": "Book Now",
+    "popular": "Popular",
+    "items": [
+      {
+        "duration": "60",
+        "title": "Basic Package",
+        "desc": "A gentle relaxation massage focusing on common tension zones — shoulders, neck, and back.",
+        "features": ["Instant stress relief", "Muscle relaxation", "Beginner-friendly"],
+        "price": "400,000₫",
+        "priceOld": "450,000₫"
+      },
+      {
+        "duration": "90",
+        "title": "Standard Package",
+        "desc": "Full-body massage combined with acupressure to improve circulation and restore your energy.",
+        "features": ["Improved blood flow", "Full-body pain relief", "Better sleep quality"],
+        "price": "500,000₫",
+        "priceOld": "550,000₫"
+      },
+      {
+        "duration": "90",
+        "title": "Premium Package",
+        "desc": "Deep tissue massage that targets deeper muscle layers, addressing chronic pain points.",
+        "features": ["Chronic pain therapy", "Releases muscle tension", "Post-workout recovery"],
+        "price": "600,000₫",
+        "priceOld": "650,000₫",
+        "featured": true
+      },
+      {
+        "duration": "120",
+        "title": "VIP Package",
+        "desc": "Comprehensive VIP treatment combining body massage, hot stones, and basic facial care.",
+        "features": ["Ultimate relaxation", "Detoxification", "Holistic care"],
+        "price": "750,000₫",
+        "priceOld": "800,000₫"
+      }
+    ]
+  },
+  "benefits": {
+    "kicker": "Benefits",
+    "title": "Amazing Benefits",
+    "subtitle": "Massage is more than relaxation — it's holistic health care",
+    "items": [
+      { "icon": "moon", "title": "Stress Relief", "desc": "Wash away the fatigue and anxiety left by long, intense workdays." },
+      { "icon": "activity", "title": "Better Sleep", "desc": "Drift into deep, restful sleep more easily night after night." },
+      { "icon": "heart", "title": "Pain Relief", "desc": "Soothe muscle aches, joint stiffness, and chronic back pain." },
+      { "icon": "heart", "title": "Better Circulation", "desc": "Stimulate blood flow to deliver oxygen and nutrients to every cell." },
+      { "icon": "zap", "title": "Energy Recovery", "desc": "Restore your stamina and walk away feeling refreshed and renewed." },
+      { "icon": "shield", "title": "Boosted Immunity", "desc": "Activate the lymphatic system to keep your body strong and resilient." }
+    ]
+  },
+  "process": {
+    "kicker": "Process",
+    "title": "Simple Process",
+    "subtitle": "Just 4 steps to start your relaxation journey",
+    "steps": [
+      { "title": "1. Book", "desc": "Reach us via Hotline or fill out the form" },
+      { "title": "2. Confirm", "desc": "We'll call back to confirm your appointment" },
+      { "title": "3. Therapist Arrives", "desc": "Your therapist arrives on time, at your address" },
+      { "title": "4. Relax", "desc": "Enjoy a professional massage in your own space" }
+    ]
+  },
+  "pricing": {
+    "kicker": "Pricing",
+    "title": "Service Pricing",
+    "subtitle": "Transparent rates, exceptional quality",
+    "headerPackage": "Package",
+    "headerDuration": "Duration",
+    "headerPrice": "Price",
+    "footnote": "Prices in Vietnamese Dong (₫). Approx. 400,000₫ ≈ $16 USD."
+  },
+  "testimonials": {
+    "kicker": "Reviews",
+    "title": "What Clients Say",
+    "subtitle": "Your satisfaction is our success",
+    "verifiedLabel": "Verified Customer",
+    "items": [
+      {
+        "initial": "S",
+        "name": "Sarah Jenkins",
+        "quote": "Excellent service! The therapist arrived right on time, brought everything she needed, and gave a wonderfully professional massage. I slept incredibly well that night."
+      },
+      {
+        "initial": "M",
+        "name": "Minh Tuan",
+        "quote": "Fair, transparent pricing. So convenient when I'm traveling in Da Nang and don't feel like hunting for a spa. I'll definitely book again."
+      },
+      {
+        "initial": "E",
+        "name": "Elena R.",
+        "quote": "Excellent acupressure technique — my shoulder and neck pain has all but disappeared. Minor note: the therapist was 5 min late due to traffic, but the attitude was great."
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "How far in advance should I book?", "a": "We recommend booking at least 1–2 hours ahead so we can assign the best therapist. We do accept urgent requests subject to therapist availability." },
+      { "q": "Do therapists bring their own equipment?", "a": "Yes. Our therapists arrive with clean towels, massage oils, and all the necessary tools for your session." },
+      { "q": "Does the service fee include a tip?", "a": "No, tips are not included in our published prices. Tipping is at your discretion and based on how satisfied you are with your therapist." },
+      { "q": "Which areas of Da Nang do you serve?", "a": "We serve every central district and all coastal areas of Da Nang." }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Book an Appointment",
+    "subtitle": "Let us take care of your wellbeing today",
+    "hotline": "Hotline",
+    "address": "Address",
+    "addressValue": "Da Nang, Vietnam",
+    "hours": "Hours",
+    "hoursValue": "Open 24/7",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "phone": "Phone",
+      "phonePlaceholder": "+84 935 xxx xxx",
+      "email": "Email",
+      "emailPlaceholder": "email{'@'}example.com",
+      "service": "Service",
+      "servicePlaceholder": "Select a service",
+      "datetime": "Preferred Date & Time",
+      "message": "Message",
+      "messagePlaceholder": "Anything else we should know...",
+      "submit": "Send Request",
+      "thanks": "Thank you! We will contact you as soon as possible."
+    }
+  },
+  "footer": {
+    "tagline": "Professional in-home massage in Da Nang, bringing relaxation and quality wellness care to your own private space.",
+    "quickLinks": "Quick Links",
+    "linkHome": "Home",
+    "linkServices": "Services",
+    "linkAbout": "About",
+    "linkContact": "Contact",
+    "contact": "Contact",
+    "addressValue": "Da Nang, Vietnam",
+    "hours": "Hours",
+    "hoursValue": "Open 24/7",
+    "copyright": "© 2026 Home Massage Da Nang. All rights reserved."
+  },
+  "floatingCta": "Call now"
+}

@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Home Massage Da Nang - Dịch vụ Massage tại nhà chuyên nghiệp",
+    "description": "Dịch vụ massage tại nhà chuyên nghiệp tại Đà Nẵng. Massage cổ truyền, trị liệu, giác hơi, cạo gió. Phục vụ 24/7. Đặt lịch hotline 0935-922-854.",
+    "ogTitle": "Home Massage Da Nang - Dịch vụ Massage tại nhà chuyên nghiệp",
+    "ogDescription": "Dịch vụ massage tại nhà chuyên nghiệp tại Đà Nẵng. Massage cổ truyền, trị liệu, giác hơi, cạo gió. Phục vụ 24/7. Đặt lịch hotline 0935-922-854.",
+    "twitterTitle": "Home Massage Da Nang - Dịch vụ Massage tại nhà chuyên nghiệp",
+    "twitterDescription": "Dịch vụ massage tại nhà chuyên nghiệp tại Đà Nẵng. Phục vụ 24/7. Hotline 0935-922-854.",
+    "ogImage": "https://homemassagedanang.com/og-image.jpg",
+    "ogUrl": "https://homemassagedanang.com/",
+    "ogLocale": "vi_VN",
+    "ogLocaleAlternate": "en_US"
+  },
+  "nav": {
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "benefits": "Lợi ích",
+    "pricing": "Bảng giá",
+    "faq": "FAQ",
+    "contact": "Liên hệ",
+    "callNow": "Gọi 0935-922-854",
+    "menuLabel": "Menu"
+  },
+  "hero": {
+    "badge": "Massage tại nhà · Đà Nẵng",
+    "titlePart1": "Dịch vụ Massage",
+    "titlePart2": "tại nhà",
+    "titleHighlight": "chuyên nghiệp",
+    "desc": "Mang không gian spa thư giãn đến tận ngôi nhà của bạn. Phục hồi năng lượng, giảm căng thẳng với đội ngũ kỹ thuật viên tận tâm.",
+    "ctaBook": "Đặt lịch hẹn ngay",
+    "trustText": "Được tin tưởng bởi 2,000+ khách hàng tại Đà Nẵng"
+  },
+  "about": {
+    "kicker": "Về chúng tôi",
+    "titlePart1": "Sức khỏe & thư giãn",
+    "titlePart2": "ngay tại nhà bạn",
+    "desc": "Home Massage Da Nang ra đời với sứ mệnh mang lại sức khỏe và sự thư giãn tối đa cho khách hàng mà không cần phải di chuyển. Chúng tôi tự hào cung cấp dịch vụ massage tại nhà chất lượng cao, an toàn và tiện lợi nhất tại Đà Nẵng.",
+    "features": [
+      { "title": "Tiện lợi", "desc": "Massage ngay tại nhà, khách sạn của bạn" },
+      { "title": "Chuyên nghiệp", "desc": "Kỹ thuật viên được đào tạo bài bản" },
+      { "title": "Giá cả hợp lý", "desc": "Minh bạch, không phát sinh chi phí" },
+      { "title": "Phục vụ 24/7", "desc": "Sẵn sàng bất cứ khi nào bạn cần" }
+    ],
+    "cardTrustPrefix": "Tin tưởng bởi",
+    "cardTrustCount": "2,000+",
+    "cardTrustSuffix": "khách hàng tại Đà Nẵng"
+  },
+  "services": {
+    "kicker": "Liệu trình",
+    "title": "Dịch vụ của chúng tôi",
+    "subtitle": "Lựa chọn liệu trình phù hợp nhất với nhu cầu cơ thể bạn",
+    "minutes": "phút",
+    "price": "Giá dịch vụ",
+    "bookNow": "Đặt lịch ngay",
+    "popular": "Phổ biến",
+    "items": [
+      {
+        "duration": "60",
+        "title": "Gói cơ bản",
+        "desc": "Massage thư giãn nhẹ nhàng, tập trung vào các vùng hay nhức mỏi như vai, gáy, lưng.",
+        "features": ["Giảm căng thẳng tức thì", "Thư giãn cơ bắp", "Phù hợp người mới"],
+        "price": "400.000đ",
+        "priceOld": "450.000đ"
+      },
+      {
+        "duration": "90",
+        "title": "Gói tiêu chuẩn",
+        "desc": "Massage toàn thân kết hợp ấn huyệt, giúp lưu thông khí huyết và phục hồi năng lượng.",
+        "features": ["Lưu thông máu huyết", "Giảm đau nhức toàn thân", "Cải thiện giấc ngủ"],
+        "price": "500.000đ",
+        "priceOld": "550.000đ"
+      },
+      {
+        "duration": "90",
+        "title": "Gói nâng cao",
+        "desc": "Massage mô sâu (Deep tissue) tác động mạnh vào các lớp cơ sâu, giải quyết các điểm đau mãn tính.",
+        "features": ["Trị liệu đau mãn tính", "Giải phóng cơ căng cứng", "Phục hồi sau thể thao"],
+        "price": "600.000đ",
+        "priceOld": "650.000đ",
+        "featured": true
+      },
+      {
+        "duration": "120",
+        "title": "Gói chuyên sâu",
+        "desc": "Liệu trình VIP toàn diện kết hợp massage body, đá nóng và chăm sóc da mặt cơ bản.",
+        "features": ["Thư giãn tuyệt đối", "Đào thải độc tố", "Chăm sóc toàn diện"],
+        "price": "750.000đ",
+        "priceOld": "800.000đ"
+      }
+    ]
+  },
+  "benefits": {
+    "kicker": "Lợi ích",
+    "title": "Lợi ích tuyệt vời",
+    "subtitle": "Massage không chỉ là thư giãn, mà còn là liệu pháp chăm sóc sức khỏe toàn diện",
+    "items": [
+      { "icon": "moon", "title": "Giảm căng thẳng", "desc": "Xua tan mệt mỏi, lo âu sau những giờ làm việc căng thẳng." },
+      { "icon": "activity", "title": "Cải thiện giấc ngủ", "desc": "Giúp bạn dễ dàng đi vào giấc ngủ sâu và ngon hơn." },
+      { "icon": "heart", "title": "Giảm đau nhức", "desc": "Làm dịu các cơn đau cơ, khớp và đau lưng mãn tính." },
+      { "icon": "heart", "title": "Tăng tuần hoàn máu", "desc": "Kích thích lưu thông máu, mang oxy đến các tế bào." },
+      { "icon": "zap", "title": "Phục hồi năng lượng", "desc": "Tái tạo sức lao động, mang lại cảm giác sảng khoái." },
+      { "icon": "shield", "title": "Tăng cường miễn dịch", "desc": "Kích thích hệ bạch huyết, giúp cơ thể khỏe mạnh hơn." }
+    ]
+  },
+  "process": {
+    "kicker": "Quy trình",
+    "title": "Quy trình đơn giản",
+    "subtitle": "Chỉ 4 bước để bắt đầu hành trình thư giãn",
+    "steps": [
+      { "title": "1. Gọi đặt lịch", "desc": "Liên hệ qua Hotline hoặc điền form" },
+      { "title": "2. Xác nhận", "desc": "Chúng tôi sẽ gọi lại xác nhận lịch hẹn" },
+      { "title": "3. KTV di chuyển", "desc": "Nhân viên đến đúng giờ, đúng địa điểm" },
+      { "title": "4. Thư giãn", "desc": "Tận hưởng dịch vụ massage chuyên nghiệp" }
+    ]
+  },
+  "pricing": {
+    "kicker": "Bảng giá",
+    "title": "Bảng giá dịch vụ",
+    "subtitle": "Chi phí minh bạch, chất lượng vượt trội",
+    "headerPackage": "Gói dịch vụ",
+    "headerDuration": "Thời gian",
+    "headerPrice": "Giá tiền",
+    "footnote": ""
+  },
+  "testimonials": {
+    "kicker": "Đánh giá",
+    "title": "Khách hàng nói gì",
+    "subtitle": "Sự hài lòng của bạn là thành công của chúng tôi",
+    "verifiedLabel": "Verified Customer",
+    "items": [
+      {
+        "initial": "S",
+        "name": "Sarah Jenkins",
+        "quote": "Dịch vụ rất tuyệt vời! Kỹ thuật viên đến đúng giờ, mang theo đầy đủ dụng cụ và massage rất chuyên nghiệp. Tôi đã có một giấc ngủ rất ngon sau đó."
+      },
+      {
+        "initial": "M",
+        "name": "Minh Tuấn",
+        "quote": "Giá cả hợp lý và minh bạch. Rất tiện lợi khi đi du lịch Đà Nẵng mà không muốn ra ngoài tìm spa. Sẽ ủng hộ lần sau."
+      },
+      {
+        "initial": "E",
+        "name": "Elena R.",
+        "quote": "Kỹ thuật ấn huyệt rất tốt, giảm hẳn đau mỏi vai gáy của tôi. Điểm trừ nhỏ là nhân viên đến trễ 5 phút do kẹt xe, nhưng thái độ rất tốt."
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      { "q": "Tôi cần đặt lịch trước bao lâu?", "a": "Bạn nên đặt trước ít nhất 1-2 tiếng để chúng tôi sắp xếp kỹ thuật viên tốt nhất. Tuy nhiên, chúng tôi vẫn nhận các yêu cầu gấp tùy thuộc vào tình trạng nhân viên." },
+      { "q": "Kỹ thuật viên có mang theo dụng cụ không?", "a": "Có, kỹ thuật viên của chúng tôi sẽ mang đầy đủ khăn sạch, tinh dầu và các dụng cụ cần thiết cho buổi massage." },
+      { "q": "Phí dịch vụ đã bao gồm tiền tip chưa?", "a": "Giá dịch vụ chưa bao gồm tiền tip. Việc tip là tùy thuộc vào sự hài lòng của bạn đối với kỹ thuật viên." },
+      { "q": "Khu vực phục vụ của Home Massage?", "a": "Chúng tôi phục vụ tại tất cả các quận trung tâm và khu vực ven biển tại Đà Nẵng." }
+    ]
+  },
+  "contact": {
+    "kicker": "Liên hệ",
+    "title": "Liên hệ đặt lịch",
+    "subtitle": "Hãy để chúng tôi chăm sóc sức khỏe của bạn ngay hôm nay",
+    "hotline": "Hotline",
+    "address": "Địa chỉ",
+    "addressValue": "Đà Nẵng, Việt Nam",
+    "hours": "Giờ làm việc",
+    "hoursValue": "Phục vụ 24/7",
+    "form": {
+      "name": "Họ và tên",
+      "namePlaceholder": "Nguyễn Văn A",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "0935 xxx xxx",
+      "email": "Email",
+      "emailPlaceholder": "email{'@'}example.com",
+      "service": "Dịch vụ quan tâm",
+      "servicePlaceholder": "Chọn dịch vụ",
+      "datetime": "Ngày giờ dự kiến",
+      "message": "Lời nhắn",
+      "messagePlaceholder": "Yêu cầu thêm (nếu có)...",
+      "submit": "Gửi yêu cầu",
+      "thanks": "Cảm ơn bạn! Chúng tôi sẽ liên hệ lại sớm nhất."
+    }
+  },
+  "footer": {
+    "tagline": "Dịch vụ massage chuyên nghiệp tại nhà, mang đến sự thư giãn và chăm sóc sức khỏe tốt nhất cho bạn ngay tại không gian riêng tư.",
+    "quickLinks": "Liên kết nhanh",
+    "linkHome": "Trang chủ",
+    "linkServices": "Dịch vụ",
+    "linkAbout": "Giới thiệu",
+    "linkContact": "Liên hệ",
+    "contact": "Liên hệ",
+    "addressValue": "Đà Nẵng, Việt Nam",
+    "hours": "Giờ hoạt động",
+    "hoursValue": "Phục vụ 24/7",
+    "copyright": "© 2026 Home Massage Da Nang. Bản quyền thuộc về Home Massage Da Nang."
+  },
+  "floatingCta": "Gọi ngay"
+}
