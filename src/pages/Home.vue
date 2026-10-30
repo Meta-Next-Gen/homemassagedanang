@@ -18,10 +18,21 @@ const aboutFeatures = computed(() => tm('about.features'))
 const isEn = computed(() => locale.value === 'en')
 const otherLocaleHref = computed(() => (isEn.value ? '/' : '/en/'))
 
+const ZALO_URL = 'https://zalo.me/0935922854'
+
+// Zalo links cannot prefill a message, so copy the booking details for the user to paste
 function handleSubmit(e) {
   e.preventDefault()
+  const data = new FormData(e.target)
+  const lines = ['name', 'phone', 'email', 'service', 'datetime', 'message']
+    .filter((k) => data.get(k))
+    .map((k) => `${t(`contact.form.${k}`)}: ${data.get(k)}`)
+  // Clipboard may be blocked; Zalo still opens
+  navigator.clipboard?.writeText(lines.join('\n')).catch(() => {})
+  window.gtag?.('event', 'conversion', { send_to: 'AW-17331170272/E3yMCNP344YbEODXkshA' })
   alert(t('contact.form.thanks'))
-  e.target.reset()
+  // Same-tab navigation is not popup-blocked and opens the Zalo app on mobile
+  window.location.href = ZALO_URL
 }
 </script>
 
@@ -414,20 +425,20 @@ function handleSubmit(e) {
           <div class="grid sm:grid-cols-2 gap-5">
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.name') }} *</label>
-              <input required type="text" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.namePlaceholder')" />
+              <input required name="name" type="text" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.namePlaceholder')" />
             </div>
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.phone') }} *</label>
-              <input required type="tel" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.phonePlaceholder')" />
+              <input required name="phone" type="tel" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.phonePlaceholder')" />
             </div>
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.email') }}</label>
-              <input type="email" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.emailPlaceholder')" />
+              <input name="email" type="email" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" :placeholder="t('contact.form.emailPlaceholder')" />
             </div>
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.service') }}</label>
-              <select class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
-                <option>{{ t('contact.form.servicePlaceholder') }}</option>
+              <select name="service" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
+                <option value="">{{ t('contact.form.servicePlaceholder') }}</option>
                 <option v-for="s in services" :key="s.title">{{ s.title }}</option>
               </select>
             </div>
@@ -435,12 +446,12 @@ function handleSubmit(e) {
 
           <div class="mt-5">
             <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.datetime') }}</label>
-            <input type="datetime-local" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" />
+            <input name="datetime" type="datetime-local" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" />
           </div>
 
           <div class="mt-5">
             <label class="block text-xs font-semibold uppercase tracking-wider text-brand-500 mb-2">{{ t('contact.form.message') }}</label>
-            <textarea rows="4" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" :placeholder="t('contact.form.messagePlaceholder')"></textarea>
+            <textarea name="message" rows="4" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" :placeholder="t('contact.form.messagePlaceholder')"></textarea>
           </div>
 
           <button type="submit" class="mt-7 w-full inline-flex justify-center items-center gap-2 rounded-xl bg-amber-cta hover:bg-amber-cta-hover text-white font-semibold py-4 shadow-lg shadow-amber-500/20 transition">
@@ -464,7 +475,7 @@ function handleSubmit(e) {
             <a href="#" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-500 flex items-center justify-center transition" aria-label="Instagram">
               <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </a>
-            <a href="#" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-500 flex items-center justify-center transition" aria-label="Zalo">
+            <a :href="ZALO_URL" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-500 flex items-center justify-center transition" aria-label="Zalo">
               <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 5.92 2 10.74c0 2.74 1.45 5.18 3.72 6.78L4.5 21l3.84-2.14c1.13.31 2.36.48 3.66.48 5.52 0 10-3.92 10-8.74S17.52 2 12 2z"/></svg>
             </a>
           </div>
